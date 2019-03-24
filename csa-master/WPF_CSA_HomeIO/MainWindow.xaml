@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF_CSA_HomeIO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_CSA_HomeIO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="HomeIO Controller" HorizontalContentAlignment="Center"
+               Margin="10,10,10,363" FontSize="20"/>
+        <Button Content="Ouvrir Store" Click="btnStoreOuvrir" Margin="72,98,472,268"/>
+        <Button Content="Fermer Store" Click="btnStoreFermer" Margin="478,98,66,268"/>
+        <TextBox x:Name="textBox" Margin="72,172,66,214"/>
+        <TextBox x:Name="output" Margin="72,205,66,34"/>
+    </Grid>
+</Window>
